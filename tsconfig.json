@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* --- Base Options --- */
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["DOM", "ES2020"],
+
+    /* --- Strict Type-Checking Options --- */
+    "strict": true,
+    "noImplicitAny": true,
+
+    /* --- Module Resolution Options --- */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    /* --- Advanced Options --- */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    
+    /* --- Emitting Files --- */
+    "sourceMap": true
+  },
+  "include": [
+    "script.ts"
+  ]
+}
